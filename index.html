@@ -146,9 +146,9 @@
         <div class="carousel w-full ">
             <div id="slide1" class="carousel-item relative w-full">
               <div class="relative rounded-xl">
-                <img class="opacity-80 h-[250px] lg:h-full" src="images/banner.png" class="w-full" />
+                <img class="opacity-80 h-[270px] lg:h-full" src="images/banner.png" class="w-full" />
 
-                <div class="w-full lg:w-3/4 mx-auto text-center absolute -top-[0px] lg:top-1/4 lg:left-[150px]">
+                <div class="w-full lg:w-3/4 mx-auto text-center absolute top-[10px] lg:top-1/4 lg:left-[150px]">
                     <div class="flex justify-center">
                         <img src="images/client.png" alt="">
                     </div>
@@ -193,7 +193,7 @@
                 <p class=" lg:w-3/5 w-full mx-auto text-lg font-normal text-color-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
             </div>
             <!-- Flex FAQ & Image -->
-            <div class="flex flex-col-reverse lg:flex-row gap-8 items-center">
+            <div class="flex flex-col-reverse lg:flex-row gap-3 lg:gap-8 items-center mb-14">
                 <div class="space-y-6 flex-1">
                     <div class="collapse collapse-plus bg-base-200">
                         <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -254,11 +254,96 @@
                         <img class=" h-full lg:h-[520px]" src="images/faq.png" alt="">
                     </div>
             </div>
+        </section>
+        <!-- Contact Section -->
+        <section>
+            <div class="text-center space-y-6 my-8 lg:my-14">
+                <h1 class="lg:text-5xl text-3xl font-extrabold text-color-title">Contact With Us</h1>
+                <p class=" lg:w-3/5 w-full mx-auto text-lg font-normal text-color-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
 
+            <div class="flex items-center flex-col lg:flex-row gap-8 mb-8 lg:mb-14">
+                <div class="grid grid-cols-1 lg:grid-cols-2 flex-1">
+                    <div class="p-5 text-center bg-[#F3F3F3] border-b-2 border-r-0 lg:border-r-2">
+                        <div class="flex justify-center items-center">
+                            <img src="images/location.png" alt="">
+                        </div>
+                        <h1 class="text-2xl font-extrabold text-color-title mt-5">Address</h1>
+                        <p class="text-base text-color-description font-normal mt-4">A108 Adam Street,<br>
+                            New York, NY 535022</p>
+                    </div>
+                    <div class="p-10 text-center bg-[#F3F3F3] border-b-2">
+                        <div class="flex justify-center items-center">
+                            <img src="images/call.png" alt="">
+                        </div>
+                        <h1 class="text-2xl font-extrabold text-color-title mt-5">Call Us</h1>
+                        <p class="text-base text-color-description font-normal mt-4">+88 01750 00 00 00,<br>
+                            +88 01750 00 00 00</p>
+                    </div>
+                    <div class="p-10 text-center bg-[#F3F3F3] border-r-0 lg:border-r-2 border-b-2 lg:border-b-0">
+                        <div class="flex justify-center items-center">
+                            <img src="images/email.png" alt="">
+                        </div>
+                        <h1 class="text-2xl font-extrabold text-color-title mt-5">Email Us</h1>
+                        <p class="text-base text-color-description font-normal mt-4">info@gmail.com
+                            ,<br>
+                            info@gmail.com</p>
+                    </div>
+                    <div class="p-10 text-center bg-[#F3F3F3] ">
+                        <div class="flex justify-center items-center">
+                            <img src="images/time.png" alt="">
+                        </div>
+                        <h1 class="text-2xl font-extrabold text-color-title mt-5">Working Hours</h1>
+                        <p class="text-base text-color-description font-normal mt-4">Mon-Fri: 9AM to 5PM
+                            <br>
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+                    
+                </div>
+                <form class="space-y-2 lg:space-y-7 flex-1 " action="">
+                    <input class="w-full bg-[#F3F3F3] block  p-5 rounded-lg" type="text" placeholder="Enter Name:">
+                    <input class="w-full bg-[#F3F3F3] block p-5 rounded-lg" type="email" placeholder="Enter Enail:">
+                    <input class="w-full bg-[#F3F3F3] block p-5 rounded-lg" type="text" placeholder="Enter Enail: ">
+                    <textarea class="w-full bg-[#F3F3F3] block p-5 rounded-lg" name="" id="" cols="30" rows="2" placeholder="Your Message:"></textarea>
+                    <input class="w-full text-xl block  py-5 bg-primary-color text-white border-none  rounded-lg" type="submit" value="Send Message">
+                </form>
+            </div>
         </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer class="bg-[#111] py-14 px-5">
+        <div class="footer w-auto lg:w-[1140px] mx-auto grid grid-cols-1 lg:grid-cols-4 text-base-content">
+            <nav>
+                <div class=" flex items-center">
+                    <img class="w-8 h-8" src="images/business.png" alt="">
+                    <header class="footer-title text-lg lg:text-xl font-extrabold text-white">Justice</header> 
+                </div>
+                <p class="w-[170px] text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+              </nav> 
+              <nav>
+                <header class="footer-title text-lg lg:text-xl font-extrabold text-white">Usefull Link</header> 
+                <a class="link link-hover text-white">About us</a>
+                <a class="link link-hover text-white">Contact</a>
+                <a class="link link-hover text-white">Jobs</a>
+                <a class="link link-hover text-white">Press kit</a>
+              </nav> 
+              <nav>
+                <header class="footer-title text-lg lg:text-xl font-extrabold text-white">Contact Now</header> 
+                <a class="link link-hover text-white">Terms of use</a>
+                <a class="link link-hover text-white">Privacy policy</a>
+                <a class="link link-hover text-white">Cookie policy</a>
+              </nav> 
+              <form>
+                <header class="footer-title text-lg lg:text-xl font-extrabold text-white">Subscribe</header> 
+                <fieldset class="form-control w-80">
+                  <label class="label">
+                    <span class="label-text text-white">Enter your email address</span>
+                  </label> 
+                  <div class="join">
+                    <input type="text" placeholder="Email : " class="input input-bordered join-item w-[150px] lg:w-auto" /> 
+                    <button class="btn bg-primary-color join-item"><i class=" text-white fa-solid fa-location-arrow"></i></button>
+                  </div>
+                </fieldset>
+              </form>
+        </div>
+      </footer> 
 </html>
